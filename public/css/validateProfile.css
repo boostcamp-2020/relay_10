@@ -64,3 +64,8 @@
 .button-text {
   display: block;
 }
+
+.none {
+  position: absolute;
+  top: -500px;
+}
