@@ -12,7 +12,6 @@ function setThumbnail(event) {
     
     profileImageDOM.src = event.target.result
     console.log(event.target.result);
-    label.style.backgroundImage = event.target.result;
   };
   reader.readAsDataURL(event.target.files[0]);
 }
