@@ -57,6 +57,9 @@
 
 
 ### 기타(비고)
+
+___3조 Readme 를 확인하실때 realy 10 - 아이러브 스쿨 폴더를 다운 받으시면 첨부파일이 있습니다.___
+
 ​
 http://www.ilovepc.co.kr/news/articleView.html?idxno=2780 
 ​
@@ -64,5 +67,4 @@ http://www.ilovepc.co.kr/news/articleView.html?idxno=2780
 ​
 ![ex_screenshot](http://www.ilovepc.co.kr/news/photo/first/201007/img_2780_1.jpg)
 ​
-3조 Readme 를 확인하실때 realy 10 - 아이러브 스쿨 폴더를 다운 받으시면 첨부파일이 있습니다.
 
