@@ -1,8 +1,8 @@
 const config = {
   db_info: {
     host: 'localhost',
-    user: 'root',
-    password: 'root123',
+    user: 'relay10',
+    password: '1234',
     port: 3306,
     database: 'boost',
     connectionLimit: 50,

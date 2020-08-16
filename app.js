@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 
 const apiRouter = require('./routes/index');
 
-const port = 80;
+const port = 8080;
 
 const getPath = (file) => {
   return path.join(__dirname + file);

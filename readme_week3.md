@@ -90,7 +90,7 @@ Azura Face API Guide
 
 - 2세대 Standard 서버
 
-- 과금이 되는 서버지만, 10만원 쿠폰 과감히 사용함! ~~어차피 일주일만 쓰니까..~~
+- 과금이 되는 서버지만, 10만원 쿠폰 과감히 사용함! ~~*어차피 일주일만 쓰니까..*~~
 
 - Ubuntu 18.04
 
@@ -104,13 +104,13 @@ Azura Face API Guide
 
 포트 포워딩 설정
 
-- 외부 접속용(`0.0.0.0/0`) : 8080, 80(http), 443(https)
+- 외부 접속용(`0.0.0.0/0`) : `8080`, `80`(http), `443`(https)
+    - 추후 nginx 사용시 설정에서 8080 포트를 80/443 으로 변경해주면 됩니다
 
-- 개발용(개발자 로컬IP) : 22(ssh)
+- 개발용(개발자 로컬IP) : `22`(ssh)
 
 ![image](https://user-images.githubusercontent.com/57997672/90231236-d37d1d80-de55-11ea-9e05-3ebe98e1e0e1.png)
 
-[]()
 
 Public IP 설정
 
@@ -146,15 +146,19 @@ Public IP 설정
 
 ### **배포**
 
-``git clone`` 으로 파일 가져오기
+`git clone` 으로 파일 가져오기
 
-````bash $ git clone https://github.com/boostcamp-2020/relay_10.git````
+```bash 
+$ git clone https://github.com/boostcamp-2020/relay_10.git
+```
 
 `nohup` 으로 로그 파일 만들면서 실행
 
-`- `&` 옵션`으로 백그라운드 실행
+- `&` 옵션으로 백그라운드 실행
 
-````bash $ nohup node app.js & ````
+```bash 
+$ nohup node app.js & 
+```
 
 ## 소감 한마디
 
